@@ -41,42 +41,6 @@ class Match {
    }
 }
 
- 
-# OOP
-$tom = new RatedPlayer("Tom",1600);
-$alan = new RatedPlayer("Alan",2000);
-echo 'OOP<br>';
-echo $tom->rating;
-echo '<br>';
-echo $alan->rating;
-echo '<br>';
-new Match($tom,$alan,1);
-echo $tom->rating;
-echo '<br>';
-echo $alan->rating;
-echo '<br>';
-
-
-
-echo 'PROCEDURAL<br>';
-$tomRating = 1600;
-$alanRating = 2000;
-
-echo $tomRating;
-echo '<br>';
-echo $alanRating;
-echo '<br>';
-$after_match_ratings = newRating($tomRating,$alanRating,1);
-$tomRating = $after_match_ratings["player1"];
-$alanRating = $after_match_ratings["player2"];
-echo $tomRating;
-echo '<br>';
-echo $alanRating;
-echo '<br>';
-
-
-
-
 ?>
 
 
